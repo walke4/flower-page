@@ -1,0 +1,123 @@
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #3f2343;
+  background-image: url(images/bkg_flowers.png);
+}
+
+.wrapper {
+  background-color: white;
+  max-width: 960px;
+  margin: 0 auto;
+  border: 2px solid silver;
+  box-shadow: 2px 2px 20px black;
+}
+
+header {
+  background-image: url(images/bkg_header.jpg);
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 200%;
+  color: white;
+  text-shadow: 2px 2px 10px black;
+}
+
+nav {
+  background-color: #b04688;
+  text-transform: uppercase;
+  border: 2px solid #b04688;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+nav li {
+  list-style-type: none;
+  padding: 1rem;
+  
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 1rem 2rem;
+}
+
+nav a:hover {
+  background-color: black;
+  border-radius: 2rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 1rem;
+  padding: .5rem;
+}
+
+.left-column {
+  font-size: 135%;
+  line-height: 1.3;
+  padding: 0 1rem;
+}
+
+.left-column h2 {
+  font-size: 150%;
+  color: #b04688;
+  border-bottom: 1px solid #b04688;
+}
+
+.pic-right {
+  float: right;
+  box-shadow: 2px 2px 7px black;
+  border: 5px solid white;
+  margin: 0 0 1rem 1rem;
+
+}
+
+.right-column {
+  background-color: thistle;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 90%;
+  padding: .5rem;
+  border-radius: 30px;
+  box-shadow: inset 2px 2px 10px black;
+  text-wrap: balance;
+}
+
+.right-column h2 {
+  font-size: 175%;
+}
+
+.right-column figcaption{
+  margin-top: .5rem;
+}
+
+.right-column img{
+  border: 3px solid white;
+  border-radius: 15px;
+}
+
+footer {
+  background-color: #b04688;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  font-size: 80%;
+  font-style: italic;
+}
+
+img {
+  max-width: 100%;
+  
+}
+
